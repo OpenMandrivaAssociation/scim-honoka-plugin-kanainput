@@ -10,7 +10,7 @@ Version:    %{version}
 Release:    %{release}
 Group:      System/Internationalization
 License:    GPL
-URL:        http://nop.net-p.org/modules/pukiwiki/index.php?%5B%5Bhonoka%5D%5D
+URL:        https://nop.net-p.org/modules/pukiwiki/index.php?%5B%5Bhonoka%5D%5D
 Source0:    %{src_name}-%{version}.tar.bz2
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: scim-honoka-devel >= %{honoka_version}
