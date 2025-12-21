@@ -13,6 +13,9 @@ License:    GPL
 URL:        https://nop.net-p.org/modules/pukiwiki/index.php?%5B%5Bhonoka%5D%5D
 Source0:    %{src_name}-%{version}.tar.bz2
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: scim-honoka-devel >= %{honoka_version}
 BuildRequires: automake
 BuildRequires: libltdl-devel
