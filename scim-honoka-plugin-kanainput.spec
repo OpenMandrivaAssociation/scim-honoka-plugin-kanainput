@@ -1,5 +1,5 @@
 %define version  0.9.1
-%define release  %mkrel 5
+%define release 6
 %define src_name honoka-plugin-kanainput
 
 %define honoka_version   0.9.0
